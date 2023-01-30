@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'serial.apps.SerialConfig',
     'geeks.apps.GeeksConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
